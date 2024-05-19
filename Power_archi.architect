@@ -162,7 +162,7 @@
     </index>
    </folder>
   </table>
-  <table id="TAB44" populated="true" UUID="e6fcd4e9-688b-465b-ada2-af28c42de3ab" name="Dimensao tempo" objectType="TABLE" physicalName="dim_tempo" >
+  <table id="TAB44" populated="true" UUID="e6fcd4e9-688b-465b-ada2-af28c42de3ab" name="DIMENSAO TEMPO" objectType="TABLE" physicalName="dim_tempo" >
    <remarks></remarks>
    <folder id="FOLTAB441" populated="true" name="Columns" physicalName="Columns" type="1">
     <column id="COL45" populated="true" UUID="a7d1d40e-0ddc-4975-a103-5dbdb2085200" autoIncrement="false" autoIncrementSequenceName="dim_tempo_id_dia_seq" defaultValue="" name="identificador primario do dia" nullable="0" physicalName="id_dia" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
@@ -214,6 +214,43 @@
     </index>
    </folder>
   </table>
+  <table id="TAB61" populated="true" UUID="3bade7ce-6368-4a48-8197-d3ac9630ae2c" name="FATO VENDA" objectType="TABLE" physicalName="FACT_VENDA" >
+   <remarks></remarks>
+   <folder id="FOLTAB611" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL62" populated="true" UUID="2b3cface-138d-4790-9d1e-973233bfcc2a" autoIncrement="false" autoIncrementSequenceName="FACT_VENDA_id_loja_seq" defaultValue="" name="identificador primario da loja" nullable="0" physicalName="id_loja" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL63" populated="true" UUID="8109d1d0-ad0d-4079-a84e-5b6d392aac2e" autoIncrement="false" autoIncrementSequenceName="FACT_VENDA_identificador primario de cliente_seq" defaultValue="" name="identificador primario de cliente" nullable="0" physicalName="identificador primario de cliente" precision="0" primaryKeySeq="1" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL64" populated="true" UUID="efc8b163-2c86-4efa-a120-5e1ceb9089d3" autoIncrement="false" autoIncrementSequenceName="FACT_VENDA_id_produto_seq" defaultValue="" name="identificador primario de produto" nullable="0" physicalName="id_produto" precision="0" primaryKeySeq="2" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL65" populated="true" UUID="b85e141c-a90d-4a98-bd2d-cb843e524098" autoIncrement="false" autoIncrementSequenceName="FACT_VENDA_valor_venda_seq" defaultValue="" name="valor da venda" nullable="0" physicalName="valor_venda" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="8" userDefinedTypeUUID="4fc90970-b2e5-41dd-911c-cc605d87e7a8" >
+     <remarks></remarks>
+    </column>
+    <column id="COL66" populated="true" UUID="bde9b600-b792-4bda-b3a5-1ebafdab3c21" autoIncrement="false" autoIncrementSequenceName="FACT_VENDA_custo_venda_seq" defaultValue="" name="custo de venda" nullable="0" physicalName="custo_venda" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="8" userDefinedTypeUUID="4fc90970-b2e5-41dd-911c-cc605d87e7a8" >
+     <remarks></remarks>
+    </column>
+    <column id="COL67" populated="true" UUID="7d76f9c0-562f-4119-ad73-02b2bdaa62d0" autoIncrement="false" autoIncrementSequenceName="FACT_VENDA_quantidade_vendida_seq" defaultValue="" name="quantidade vendida" nullable="0" physicalName="quantidade_vendida" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="8" userDefinedTypeUUID="4fc90970-b2e5-41dd-911c-cc605d87e7a8" >
+     <remarks></remarks>
+    </column>
+    <column id="COL68" populated="true" UUID="7930c936-4ad0-44f2-8309-074ad8ec0d50" autoIncrement="false" autoIncrementSequenceName="FACT_VENDA_id_dia_seq" defaultValue="" name="identificador primario do dia" nullable="0" physicalName="id_dia" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB613" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB612" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB614" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX69" populated="true" UUID="e5acee32-5e65-45e6-8d09-eaade58e40ac" clustered="false" name="FACT_VENDA_pk" physicalName="FACT_VENDA_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC70" populated="true" UUID="957c98fd-1b1f-45b8-a518-d0de05ee729f" ascendingOrDescending="UNSPECIFIED" column-ref="COL62" name="identificador primario da loja" physicalName="id_loja" />
+     <index-column id="IDC71" populated="true" UUID="4e30bad3-6360-40e6-bcbb-70d64ac7539a" ascendingOrDescending="UNSPECIFIED" column-ref="COL63" name="identificador primario de cliente" physicalName="identificador primario de cliente" />
+     <index-column id="IDC72" populated="true" UUID="f63e8c12-755e-441c-988c-f077039a0212" ascendingOrDescending="UNSPECIFIED" column-ref="COL64" name="identificador primario de produto" physicalName="id_produto" />
+    </index>
+   </folder>
+  </table>
   <relationships>
   </relationships>
  </target-database>
@@ -226,7 +263,8 @@
   <table-pane table-ref="TAB25" x="106" y="363" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB36" x="106" y="520" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB39" x="106" y="291" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB44" x="766" y="307" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB44" x="670" y="88" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB61" x="684" y="395" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
  </play-pen>
  <critic-manager>
   <critic-grouping platformType="Generic" enabled="true">
