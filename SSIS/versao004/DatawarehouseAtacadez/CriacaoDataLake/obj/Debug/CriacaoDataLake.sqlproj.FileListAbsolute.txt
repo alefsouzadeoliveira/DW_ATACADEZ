@@ -1,0 +1,6 @@
+C:\Projetos\Versao002\DatawarehouseAtacadez\CriacaoDataLake\bin\Debug\CriacaoDataLake.dacpac
+C:\Projetos\Versao002\DatawarehouseAtacadez\CriacaoDataLake\bin\Debug\CriacaoDataLake.dll
+C:\Projetos\Versao002\DatawarehouseAtacadez\CriacaoDataLake\bin\Debug\CriacaoDataLake.pdb
+C:\Projetos\Versao002\DatawarehouseAtacadez\CriacaoDataLake\obj\Debug\CriacaoDataLake.sqlproj.AssemblyReference.cache
+C:\Projetos\Versao002\DatawarehouseAtacadez\CriacaoDataLake\obj\Debug\CriacaoDataLake.dll
+C:\Projetos\Versao002\DatawarehouseAtacadez\CriacaoDataLake\obj\Debug\CriacaoDataLake.pdb

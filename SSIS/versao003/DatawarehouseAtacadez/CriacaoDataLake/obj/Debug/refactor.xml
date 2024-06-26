@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0">
+  <Operation Name="Rename Refactor" Key="c0369532-40bd-41cc-9d89-853b4d0a13a8" ChangeDateTime="05/23/2024 02:37:08" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[tlb_empresa].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tlb_empresa]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="cod_loja" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f8c99e51-49c9-4dae-9390-a5e6e898575c" ChangeDateTime="05/23/2024 02:52:46" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[tlb_empresa].[Data_carga]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tlb_empresa]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="data_carga" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8f35261e-8e04-48f6-af11-b976f14fdcac" ChangeDateTime="05/23/2024 02:56:25" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[tbl_cliente].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_cliente]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="co" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ae5a6f72-c82e-4dcc-9ad9-9cfef92f67c2" ChangeDateTime="05/23/2024 02:56:37" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[tbl_cliente].[co]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_cliente]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="cod_cliente" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="66e1147d-1512-404d-8d53-fd456dd2f338" ChangeDateTime="05/23/2024 03:11:14" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[tbl_cliente].[desc_cidade]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_cliente]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="cod_cidade" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2ebdeab6-ebe6-4a97-a2da-230bf44b9eb2" ChangeDateTime="05/23/2024 03:11:46" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[tbl_cliente].[desc_cidade]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_cliente]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="desc_estado" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="61dde286-7891-4212-a683-619509102e8c" ChangeDateTime="05/23/2024 03:12:06" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[tbl_cliente].[cod_cidade]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_cliente]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="des_cidade" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="817a6675-7dfe-4737-94c5-a21c19853428" ChangeDateTime="05/23/2024 03:54:05" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[tbl_produto].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_produto]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="cod_produto" />
+  </Operation>
+</Operations>
